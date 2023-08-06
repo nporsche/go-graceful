@@ -10,6 +10,7 @@ if [[ $1 == "clean" ]]; then
   killall -9 server
   rm unix.sock
   rm $FILE
+  rm server
   rm -rf ./log
   echo "clean done"
   exit 0

@@ -4,13 +4,13 @@ import (
 	"context"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/glog"
+	"go-graceful/pkg/api"
+	"go-graceful/pkg/server"
+	"go-graceful/tableflip"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
-	"tableflip.test.com/pkg/api"
-	"tableflip.test.com/pkg/server"
-	"tableflip.test.com/tableflip"
 )
 
 type Upgrade struct {

@@ -5,13 +5,13 @@ import (
 	"context"
 	"flag"
 	"github.com/golang/glog"
+	"go-graceful/tableflip"
 	"net"
 	"os"
 	"os/signal"
 	"path/filepath"
 	"sync"
 	"syscall"
-	"tableflip.test.com/tableflip"
 )
 
 func main() {

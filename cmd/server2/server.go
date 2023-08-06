@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"github.com/golang/glog"
-	"tableflip.test.com/pkg/graceful"
+	"go-graceful/pkg/graceful"
 	"time"
 )
 
